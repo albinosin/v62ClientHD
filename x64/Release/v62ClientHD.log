@@ -1,0 +1,17 @@
+﻿  Client.cpp
+  dllmain.cpp
+  Logger.cpp
+  Memory.cpp
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(20,9): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'void *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(24,9): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'void *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(28,3): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'unsigned char *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(32,3): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'unsigned short *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(36,3): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'unsigned int *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(44,47): warning C4312: 'conversão de tipo': conversão de 'DWORD' para 'LPCVOID' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(62,19): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'LPVOID' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(63,5): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'unsigned char *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(64,19): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'LPVOID' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(68,87): warning C4312: 'conversão de tipo': conversão de 'const DWORD' para 'unsigned char *' de tamanho maior
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(76,40): warning C4311: 'conversão de tipo': truncamento de ponteiro de 'void *' para 'int'
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Memory.cpp(76,40): warning C4302: 'conversão de tipo': truncamento de 'void *' para 'int'
+LINK : fatal error LNK1181: não foi possível abrir o arquivo de entrada 'C:\Users\informatica\source\repos\v62ClientHD\\detours.obj'

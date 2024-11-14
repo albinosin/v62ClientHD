@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\mods">
+      <UniqueIdentifier>{90036a96-8736-459d-b4d6-b405b6e07277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\util">
+      <UniqueIdentifier>{998050b4-e12b-41ba-94f6-499a90769ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\mods">
+      <UniqueIdentifier>{0f783250-3855-4fce-82f7-2999ccb0187a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\util">
+      <UniqueIdentifier>{cb7b1974-feac-4212-8158-a009b804f2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\detours">
+      <UniqueIdentifier>{537e4657-e786-4062-b36e-8a5f922e0659}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Arquivos de Cabeçalho\mods</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Arquivos de Cabeçalho\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detver.h">
+      <Filter>Arquivos de Cabeçalho\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="syelog.h">
+      <Filter>Arquivos de Cabeçalho\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="INIReader.h">
+      <Filter>Arquivos de Cabeçalho\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Arquivos de Origem\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Arquivos de Origem\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Arquivos de Origem\util</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBook.cpp">
+      <Filter>Arquivos de Origem\mods</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginField.cpp">
+      <Filter>Arquivos de Origem\mods</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

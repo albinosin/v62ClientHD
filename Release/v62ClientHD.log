@@ -1,0 +1,19 @@
+﻿  Client.cpp
+C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Client.cpp(40,14): warning C4273: 'Client::UpdateResolution': vínculo de dll inconsistente
+      C:\Users\informatica\source\repos\v62ClientHD\v62ClientHD\Client.h(13,25):
+      ver a definição anterior de "Client::UpdateResolution"
+  
+  dllmain.cpp
+  Logger.cpp
+  LoginField.cpp
+  Memory.cpp
+  MonsterBook.cpp
+     Criando biblioteca C:\Users\informatica\source\repos\v62ClientHD\Release\v62ClientHD.lib e objeto C:\Users\informatica\source\repos\v62ClientHD\Release\v62ClientHD.exp
+  Gerando código
+  Previous IPDB not found, fall back to full compilation.
+  All 323 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+detours.lib(detours.obj) : warning LNK4099: PDB '' não foi encontrado 'detours.lib(detours.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+detours.lib(modules.obj) : warning LNK4099: PDB '' não foi encontrado 'detours.lib(modules.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+detours.lib(disasm.obj) : warning LNK4099: PDB '' não foi encontrado 'detours.lib(disasm.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+  v62ClientHD.vcxproj -> C:\Users\informatica\source\repos\v62ClientHD\Release\v62ClientHD.dll
