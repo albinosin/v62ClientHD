@@ -32,5 +32,5 @@ debug=false
 **This code can only be compiled on \[Release\] \[x86\] configuration**
 
 ## Thanks
-MapleEzorzia 
+MapleEzorsia
 Lily
